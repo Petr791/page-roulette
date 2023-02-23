@@ -24,6 +24,11 @@ let indexRoulette = 0;
 let elemActive;
 
 
+// Перезагрузка страницы при изменении ширины экрана.
+//Нужно для нормальной работы рулетки при повороте экрана устройства.
+window.onresize = function(event) {
+    location.reload();
+};
 
 window.addEventListener("load", function() {
 
