@@ -97,18 +97,36 @@ window.addEventListener("load", function() {
         // Поправки индекса призового элемента от ширины экрана
         if (window.innerWidth <= 450) {
             indexRoulette = -Math.floor((move + (windowRoulette.offsetWidth / 2) / itemRouletteWidthMinus) / itemRouletteWidth) + 0;
-            //console.log("Истина");
+
         } else if (window.innerWidth <= 800) {
             indexRoulette = -Math.floor((move + (windowRoulette.offsetWidth / 2) / itemRouletteWidthMinus) / itemRouletteWidth) + 1;
-            //console.log("Истина");
+
+
+        } else if (window.innerWidth <= 840) {
+            indexRoulette = -Math.floor((move + (windowRoulette.offsetWidth / 2) / itemRouletteWidthMinus) / itemRouletteWidth) + 1;
+
 
         } else if (window.innerWidth <= 940) {
-            indexRoulette = -Math.floor((move + (windowRoulette.offsetWidth / 2) / itemRouletteWidthMinus) / itemRouletteWidth) + 0;
-            //console.log("Истина");
-        } else {
-            //console.log("Истина");
             indexRoulette = -Math.floor((move + (windowRoulette.offsetWidth / 2) / itemRouletteWidthMinus) / itemRouletteWidth) + 1;
+
+
+
+        } else if (window.innerWidth <= 1400) {
+            indexRoulette = -Math.floor((move + (windowRoulette.offsetWidth / 2) / itemRouletteWidthMinus) / itemRouletteWidth) + 2;
+
+
+        } else if (window.innerWidth <= 1788) {
+            indexRoulette = -Math.floor((move + (windowRoulette.offsetWidth / 2) / itemRouletteWidthMinus) / itemRouletteWidth) + 2;
+
+
+        } else if (window.innerWidth > 1700) {
+            indexRoulette = -Math.floor((move + (windowRoulette.offsetWidth / 2) / itemRouletteWidthMinus) / itemRouletteWidth) + 3;
+
+        } else {
+
+            indexRoulette = -Math.floor((move + (windowRoulette.offsetWidth / 2) / itemRouletteWidthMinus) / itemRouletteWidth) + 0;
         }
+
 
 
         // призовой элемент
