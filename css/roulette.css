@@ -4,7 +4,7 @@ body::before {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: url(/img/bg.png) no-repeat center -250px;
+  background: url("../img/bg.png") no-repeat center -250px;
   background-size: cover;
   z-index: -1;
 }
@@ -17,7 +17,7 @@ body::before {
 */
 .header__first .myorders:after {
   /* изменен путь к иконке корзины */
-  background: url(/img/basket-icon.svg);
+  background: url("../img/basket-icon.svg");
 }
 
 /* второй хедер  */
@@ -191,7 +191,7 @@ body::before {
   content: "";
   width: 37px;
   height: 33px;
-  background-image: url(/img/vector-1.svg);
+  background-image: url("../img/vector-1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -208,7 +208,7 @@ body::before {
   content: "";
   width: 37px;
   height: 33px;
-  background-image: url(/img/vector-2.svg);
+  background-image: url("../img/vector-2.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -291,7 +291,7 @@ body::before {
   /* margin-top: 23px; */
   width: 190px;
   height: 190px;
-  background-image: url(/img/window-item-img.png);
+  background-image: url("../img/window-item-img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -473,7 +473,7 @@ body::before {
           flex: 0 0 290px;
   height: 290px;
   text-align: center;
-  background-image: url(/img/window-item-img.png);
+  background-image: url("../img/window-item-img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
