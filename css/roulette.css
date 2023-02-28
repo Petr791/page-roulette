@@ -122,7 +122,7 @@ body::before {
 
 .roulette-window-container {
   margin-top: 78px;
-  padding-bottom: 144px;
+  padding-bottom: 77px;
 }
 
 .roulette-heading {
@@ -158,12 +158,12 @@ body::before {
 }
 
 /* .scope-hidden {
-  overflow: hidden;
-  width: 800px;
-  height: 150px;
-  background: #2f2f2f;
-  border-radius: 10px;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+overflow: hidden;
+width: 800px;
+height: 150px;
+background: #2f2f2f;
+border-radius: 10px;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
 } */
 .window {
   width: 100%;
@@ -178,14 +178,14 @@ body::before {
 }
 
 /* .window {
-	width: 100%;
-	max-width: 1720px;
-	margin: 0 auto;
-	overflow: hidden;
-	text-align: center;
-	background: #212051;
-	border: 1px solid #474595;
-	border-radius: 30px;
+ width: 100%;
+ max-width: 1720px;
+ margin: 0 auto;
+ overflow: hidden;
+ text-align: center;
+ background: #212051;
+ border: 1px solid #474595;
+ border-radius: 30px;
 } */
 .window::before {
   content: "";
@@ -235,13 +235,13 @@ body::before {
 
 /* window-cards */
 /* .window-cards {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: nowrap;
-	column-gap: 15px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: nowrap;
+ column-gap: 15px;
+ padding-top: 5px;
+ padding-bottom: 5px;
 }
 */
 .window-cards {
@@ -360,7 +360,7 @@ body::before {
   -webkit-transition: 0.3s all linear;
   -o-transition: 0.3s all linear;
   transition: 0.3s all linear;
-  margin-top: 50px;
+  margin-top: 29px;
   text-transform: uppercase;
 }
 .roulette__btn--open {
@@ -460,18 +460,18 @@ body::before {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-column-gap: 67px;
-     -moz-column-gap: 67px;
-          column-gap: 67px;
-  row-gap: 67px;
-  padding-top: 77px;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+  row-gap: 15px;
+  padding-top: 40px;
 }
 
 .roulette-card {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 290px;
-          flex: 0 0 290px;
-  height: 290px;
+      -ms-flex: 0 0 180px;
+          flex: 0 0 180px;
+  height: 180px;
   text-align: center;
   background-image: url("../img/window-item-img.png");
   background-position: center;
@@ -489,28 +489,28 @@ body::before {
 .roulette-card__wrapper {
   display: inline-block;
   text-align: center;
-  margin-top: 42px;
+  margin-top: 16px;
 }
 .roulette-card__img {
-  width: 164px;
+  width: 104px;
 }
 .roulette-card__name {
   display: block;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 14px;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 12px;
+  margin-top: 7px;
 }
 .roulette-card__category {
   display: block;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 14px;
   text-align: center;
   color: #83ADFF;
-  margin-top: 3px;
+  margin-top: 4px;
 }
 
 .roulette-card:hover {
@@ -521,7 +521,7 @@ body::before {
   position: absolute;
   display: block;
   width: 100%;
-  height: 370px;
+  height: 141px;
   left: 0;
   bottom: 0;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5.87%, rgba(23, 23, 61, 0)), color-stop(96.03%, #17173D));
@@ -571,37 +571,33 @@ body::before {
     margin-right: 12px;
   }
   .roulette-cards {
-    row-gap: 15px;
-    -webkit-column-gap: 15px;
-       -moz-column-gap: 15px;
-            column-gap: 15px;
+    /*  row-gap: 15px;
+    column-gap: 15px; */
     /* padding-top: 34px;*/
     padding-left: 15px;
     padding-right: 15px;
   }
-  .roulette-card {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-    width: 260px;
-    height: 260px;
+  /*  .roulette-card {
+  	 flex: 0 0 auto;
+  	 width: 260px;
+  	 height: 260px;
   }
   .roulette-card__wrapper {
-    margin-top: 20px;
+  	 margin-top: 20px;
   }
   .roulette-card__img {
-    width: 164px;
+  	 width: 164px;
   }
   .roulette-card__name {
-    font-size: 18px;
-    line-height: 20px;
-    margin-top: 2px;
+  	 font-size: 18px;
+  	 line-height: 20px;
+  	 margin-top: 2px;
   }
   .roulette-card__category {
-    font-size: 18px;
-    line-height: 20px;
-    margin-top: 4px;
-  }
+  	 font-size: 18px;
+  	 line-height: 20px;
+  	 margin-top: 4px;
+  } */
 }
 @media all and (max-width: 1400px) {
   .header-roulette__category-item:first-child {
@@ -649,35 +645,31 @@ body::before {
   .header-roulette__category-item {
     padding: 0 22px;
   }
-  .roulette-cards {
-    row-gap: 15px;
-    -webkit-column-gap: 15px;
-       -moz-column-gap: 15px;
-            column-gap: 15px;
+  /* .roulette-cards {
+  	 row-gap: 15px;
+  	 column-gap: 15px;
   }
   .roulette-card {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-    width: 220px;
-    height: 220px;
+  	 flex: 0 0 auto;
+  	 width: 220px;
+  	 height: 220px;
   }
   .roulette-card__wrapper {
-    margin-top: 20px;
+  	 margin-top: 20px;
   }
   .roulette-card__img {
-    width: 124px;
+  	 width: 124px;
   }
   .roulette-card__name {
-    font-size: 18px;
-    line-height: 20px;
-    margin-top: 2px;
+  	 font-size: 18px;
+  	 line-height: 20px;
+  	 margin-top: 2px;
   }
   .roulette-card__category {
-    font-size: 18px;
-    line-height: 20px;
-    margin-top: 4px;
-  }
+  	 font-size: 18px;
+  	 line-height: 20px;
+  	 margin-top: 4px;
+  } */
 }
 /* @media all and (max-width: 1090px) {
 
@@ -787,13 +779,13 @@ body::before {
     width: 104px;
   }
   .roulette-card__name {
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 2px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 7px;
   }
   .roulette-card__category {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 14px;
     margin-top: 4px;
   }
 }
@@ -822,9 +814,7 @@ body::before {
     padding-top: 30px;
   }
   .roulette-cards {
-    -webkit-column-gap: 32px;
-       -moz-column-gap: 32px;
-            column-gap: 32px;
+    /*  column-gap: 32px; */
   }
   .roulette-card {
     -webkit-box-flex: 0;
@@ -973,9 +963,9 @@ body::before {
   }
   .roulette-cards {
     row-gap: 15px;
-    -webkit-column-gap: 32px;
-       -moz-column-gap: 32px;
-            column-gap: 32px;
+    -webkit-column-gap: 24px;
+       -moz-column-gap: 24px;
+            column-gap: 24px;
     padding-top: 34px;
     padding-left: 0px;
     padding-right: 0px;
